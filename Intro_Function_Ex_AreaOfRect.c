@@ -1,5 +1,5 @@
 /* Definition of function : Function is basically a set of statements that takes inputs
-							perform some computation and produces output.
+			    perform some computation and produces output.
 							
    Syntax: Return_type function_name(set_of_inputs);
    
