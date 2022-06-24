@@ -1,0 +1,22 @@
+/*
+Actual Parameters : The parameters passed to a function.
+Formal Parameters : The parameters received by a function.
+
+ add(m,n)  --> Actual Parameters.
+  
+ int add(int a,int b) --> Formal Parameters.
+  {
+  	return (a+b);
+  }
+
+
+		// CALL BY VALUE
+  Here values of actual parameters will be copied to formal parameters and these
+   two different parameters store values in different locations
+
+
+		//CALL BY REFERENCE
+   Here both actual and formal parameters refers to same memory location.
+   therefore,any changes made to the formal parameters will get reflected to
+   actual parameters.
+*/
