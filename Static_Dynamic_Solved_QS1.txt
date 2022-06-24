@@ -1,0 +1,25 @@
+Q. Consider the program below in a hypothetical language which
+   allows global variables and choice of static or dynamic scoping.
+=>
+int i;
+program main()
+{
+	i=10;
+	call f();
+}
+procedure f()
+{
+	int i=20;
+	call g();
+}
+procedure g()
+{
+	print i;
+}
+Let x be the value printed under static scoping and y be the value printed
+under dynamic scoping.Then,x and y are
+
+(A) x=10 , y=10
+(B) x=20 , y=10
+(C) x=10 , y=20 (Answer)
+(D) x=20 , y=20
